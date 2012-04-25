@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>8B</string>
+	<string>8C</string>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
@@ -53,7 +53,7 @@
 			<key>catalogPath</key>
 			<string>QSPresetModules/QSPresetScriptsGroup</string>
 			<key>icon</key>
-			<string>com.apple.ScriptEditor2</string>
+			<string>ScriptIcon</string>
 			<key>modificationDate</key>
 			<real>103923344</real>
 			<key>name</key>
