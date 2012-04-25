@@ -4,24 +4,22 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blacktree.Quicksilver.QSExtraScriptsPlugIn</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>${PRODUCT_NAME}</string>
-	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>88</string>
+	<string>8A</string>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
@@ -33,9 +31,15 @@
 		<key>description</key>
 		<string>AppleScripts for commonly used system tasks</string>
 		<key>extendedDescription</key>
-		<string>A set of system Shell/AppleScripts that emulate some OS functions like restarting and process actions.
+		<string>&lt;p&gt;This plugin adds a catalog entry titled &quot;Scripts (Extra Scripts Plugin)&quot; to your catalog which includes Shell/AppleScripts that emulate some OS functions like restarting and process actions.&lt;/p&gt;
 
-This plugin adds a new item to Quicksilver&apos;s catalog called &quot;Extra Scripts&quot;, which are then accessible from within Quicksilver</string>
+&lt;p&gt;The plugins includes scripts for:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;System Volume control&lt;/li&gt;
+	&lt;li&gt;Showing the Keyboard Viewer and Character Palette&lt;/li&gt;
+	&lt;li&gt;Managing the user session: Logout, Lock Screen etc.&lt;/li&gt;
+	&lt;li&gt;System Controls such as Restart, Shutdown, Sleep, Eject&lt;/li&gt;
+	&lt;/ul&gt;</string>
 		<key>icon</key>
 		<string>AppleScript</string>
 		<key>requiresFeature</key>
@@ -48,6 +52,8 @@ This plugin adds a new item to Quicksilver&apos;s catalog called &quot;Extra Scr
 			<string>QSPresetQSExtraScripts</string>
 			<key>catalogPath</key>
 			<string>QSPresetModules/QSPresetScriptsGroup</string>
+			<key>icon</key>
+			<string>AppleScript</string>
 			<key>modificationDate</key>
 			<real>103923344</real>
 			<key>name</key>
