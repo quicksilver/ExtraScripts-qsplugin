@@ -9,36 +9,10 @@
 /* Begin PBXBuildFile section */
 		CD133EBC15483070009579F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD133EBB15483070009579F0 /* Cocoa.framework */; };
 		CD133EC215483071009579F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD133EC015483071009579F0 /* InfoPlist.strings */; };
-		CD133F2115483753009579F0 /* Show Character Palette.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133EFF15483753009579F0 /* Show Character Palette.scpt */; };
-		CD133F2215483753009579F0 /* Show Keyboard Viewer.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0015483753009579F0 /* Show Keyboard Viewer.scpt */; };
-		CD133F2315483753009579F0 /* Sync Now.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0115483753009579F0 /* Sync Now.scpt */; };
-		CD133F2415483753009579F0 /* Type Clipboard.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0215483753009579F0 /* Type Clipboard.scpt */; };
-		CD133F2515483753009579F0 /* Zoom Front Window.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0315483753009579F0 /* Zoom Front Window.scpt */; };
-		CD133F2615483753009579F0 /* Get External IP.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0515483753009579F0 /* Get External IP.scpt */; };
-		CD133F2715483753009579F0 /* Get IP.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0615483753009579F0 /* Get IP.scpt */; };
-		CD133F2815483753009579F0 /* Classic Shutdown.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0815483753009579F0 /* Classic Shutdown.scpt */; };
-		CD133F2915483753009579F0 /* Fast Logout.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0915483753009579F0 /* Fast Logout.sh */; };
-		CD133F2A15483753009579F0 /* Hide Others.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0A15483753009579F0 /* Hide Others.scpt */; };
-		CD133F2B15483753009579F0 /* LockScreen in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0B15483753009579F0 /* LockScreen */; };
-		CD133F2C15483753009579F0 /* Logout in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0C15483753009579F0 /* Logout */; };
-		CD133F2D15483753009579F0 /* Quit Visible Apps.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0D15483753009579F0 /* Quit Visible Apps.scpt */; };
-		CD133F2E15483753009579F0 /* Show All.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0E15483753009579F0 /* Show All.scpt */; };
-		CD133F2F15483753009579F0 /* Switch To Root.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD133F0F15483753009579F0 /* Switch To Root.sh */; };
-		CD133F3015483753009579F0 /* top 10.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1015483753009579F0 /* top 10.sh */; };
-		CD133F3115483753009579F0 /* Close Disk Tray.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1215483753009579F0 /* Close Disk Tray.sh */; };
-		CD133F3215483753009579F0 /* Eject.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1315483753009579F0 /* Eject.sh */; };
-		CD133F3315483753009579F0 /* Empty Trash.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1415483753009579F0 /* Empty Trash.scpt */; };
-		CD133F3415483753009579F0 /* Force Restart in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1515483753009579F0 /* Force Restart */; };
-		CD133F3515483753009579F0 /* Force Shutdown in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1615483753009579F0 /* Force Shutdown */; };
-		CD133F3615483753009579F0 /* Restart in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1715483753009579F0 /* Restart */; };
-		CD133F3715483753009579F0 /* Shut Down in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1815483753009579F0 /* Shut Down */; };
-		CD133F3815483753009579F0 /* Sleep in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1915483753009579F0 /* Sleep */; };
-		CD133F3915483753009579F0 /* Toggle Audio Input.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1A15483753009579F0 /* Toggle Audio Input.scpt */; };
-		CD133F3A15483753009579F0 /* Toggle Audio Output.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1B15483753009579F0 /* Toggle Audio Output.scpt */; };
-		CD133F3B15483753009579F0 /* Max Volume (60%).scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1D15483753009579F0 /* Max Volume (60%).scpt */; };
-		CD133F3C15483753009579F0 /* Mid Volume (40%).scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1E15483753009579F0 /* Mid Volume (40%).scpt */; };
-		CD133F3D15483753009579F0 /* Min Volume (20%).scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F1F15483753009579F0 /* Min Volume (20%).scpt */; };
-		CD133F3E15483753009579F0 /* Mute Volume.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD133F2015483753009579F0 /* Mute Volume.scpt */; };
+		CD133F4C15484B3C009579F0 /* Miscellaneous in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133F4715484B39009579F0 /* Miscellaneous */; };
+		CD133F4E15484B3C009579F0 /* Processes in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133F4915484B39009579F0 /* Processes */; };
+		CD133F4F15484B3C009579F0 /* System in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133F4A15484B39009579F0 /* System */; };
+		CD133F5015484B3C009579F0 /* Volume in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133F4B15484B39009579F0 /* Volume */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +22,10 @@
 			dstPath = ExtraScripts;
 			dstSubfolderSpec = 7;
 			files = (
+				CD133F4C15484B3C009579F0 /* Miscellaneous in CopyFiles */,
+				CD133F4E15484B3C009579F0 /* Processes in CopyFiles */,
+				CD133F4F15484B3C009579F0 /* System in CopyFiles */,
+				CD133F5015484B3C009579F0 /* Volume in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,36 +44,10 @@
 		CD133EC915483071009579F0 /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
 		CD133ECA15483071009579F0 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		CD133ECB15483071009579F0 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		CD133EFF15483753009579F0 /* Show Character Palette.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show Character Palette.scpt"; sourceTree = "<group>"; };
-		CD133F0015483753009579F0 /* Show Keyboard Viewer.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show Keyboard Viewer.scpt"; sourceTree = "<group>"; };
-		CD133F0115483753009579F0 /* Sync Now.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sync Now.scpt"; sourceTree = "<group>"; };
-		CD133F0215483753009579F0 /* Type Clipboard.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Type Clipboard.scpt"; sourceTree = "<group>"; };
-		CD133F0315483753009579F0 /* Zoom Front Window.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zoom Front Window.scpt"; sourceTree = "<group>"; };
-		CD133F0515483753009579F0 /* Get External IP.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Get External IP.scpt"; sourceTree = "<group>"; };
-		CD133F0615483753009579F0 /* Get IP.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Get IP.scpt"; sourceTree = "<group>"; };
-		CD133F0815483753009579F0 /* Classic Shutdown.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Classic Shutdown.scpt"; sourceTree = "<group>"; };
-		CD133F0915483753009579F0 /* Fast Logout.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Fast Logout.sh"; sourceTree = "<group>"; };
-		CD133F0A15483753009579F0 /* Hide Others.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hide Others.scpt"; sourceTree = "<group>"; };
-		CD133F0B15483753009579F0 /* LockScreen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = LockScreen; sourceTree = "<group>"; };
-		CD133F0C15483753009579F0 /* Logout */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logout; sourceTree = "<group>"; };
-		CD133F0D15483753009579F0 /* Quit Visible Apps.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quit Visible Apps.scpt"; sourceTree = "<group>"; };
-		CD133F0E15483753009579F0 /* Show All.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show All.scpt"; sourceTree = "<group>"; };
-		CD133F0F15483753009579F0 /* Switch To Root.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Switch To Root.sh"; sourceTree = "<group>"; };
-		CD133F1015483753009579F0 /* top 10.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "top 10.sh"; sourceTree = "<group>"; };
-		CD133F1215483753009579F0 /* Close Disk Tray.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Close Disk Tray.sh"; sourceTree = "<group>"; };
-		CD133F1315483753009579F0 /* Eject.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Eject.sh; sourceTree = "<group>"; };
-		CD133F1415483753009579F0 /* Empty Trash.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Empty Trash.scpt"; sourceTree = "<group>"; };
-		CD133F1515483753009579F0 /* Force Restart */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Force Restart"; sourceTree = "<group>"; };
-		CD133F1615483753009579F0 /* Force Shutdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Force Shutdown"; sourceTree = "<group>"; };
-		CD133F1715483753009579F0 /* Restart */ = {isa = PBXFileReference; lastKnownFileType = file; path = Restart; sourceTree = "<group>"; };
-		CD133F1815483753009579F0 /* Shut Down */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shut Down"; sourceTree = "<group>"; };
-		CD133F1915483753009579F0 /* Sleep */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sleep; sourceTree = "<group>"; };
-		CD133F1A15483753009579F0 /* Toggle Audio Input.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Toggle Audio Input.scpt"; sourceTree = "<group>"; };
-		CD133F1B15483753009579F0 /* Toggle Audio Output.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Toggle Audio Output.scpt"; sourceTree = "<group>"; };
-		CD133F1D15483753009579F0 /* Max Volume (60%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Max Volume (60%).scpt"; sourceTree = "<group>"; };
-		CD133F1E15483753009579F0 /* Mid Volume (40%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mid Volume (40%).scpt"; sourceTree = "<group>"; };
-		CD133F1F15483753009579F0 /* Min Volume (20%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Min Volume (20%).scpt"; sourceTree = "<group>"; };
-		CD133F2015483753009579F0 /* Mute Volume.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mute Volume.scpt"; sourceTree = "<group>"; };
+		CD133F4715484B39009579F0 /* Miscellaneous */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Miscellaneous; sourceTree = "<group>"; };
+		CD133F4915484B39009579F0 /* Processes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Processes; sourceTree = "<group>"; };
+		CD133F4A15484B39009579F0 /* System */ = {isa = PBXFileReference; lastKnownFileType = folder; path = System; sourceTree = "<group>"; };
+		CD133F4B15484B39009579F0 /* Volume */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Volume; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,78 +125,12 @@
 		CD133EE315483297009579F0 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				CD133EFE15483753009579F0 /* Miscellaneous */,
-				CD133F0415483753009579F0 /* Networking */,
-				CD133F0715483753009579F0 /* Processes */,
-				CD133F1115483753009579F0 /* System */,
-				CD133F1C15483753009579F0 /* Volume */,
+				CD133F4715484B39009579F0 /* Miscellaneous */,
+				CD133F4915484B39009579F0 /* Processes */,
+				CD133F4A15484B39009579F0 /* System */,
+				CD133F4B15484B39009579F0 /* Volume */,
 			);
 			path = Scripts;
-			sourceTree = "<group>";
-		};
-		CD133EFE15483753009579F0 /* Miscellaneous */ = {
-			isa = PBXGroup;
-			children = (
-				CD133EFF15483753009579F0 /* Show Character Palette.scpt */,
-				CD133F0015483753009579F0 /* Show Keyboard Viewer.scpt */,
-				CD133F0115483753009579F0 /* Sync Now.scpt */,
-				CD133F0215483753009579F0 /* Type Clipboard.scpt */,
-				CD133F0315483753009579F0 /* Zoom Front Window.scpt */,
-			);
-			path = Miscellaneous;
-			sourceTree = "<group>";
-		};
-		CD133F0415483753009579F0 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				CD133F0515483753009579F0 /* Get External IP.scpt */,
-				CD133F0615483753009579F0 /* Get IP.scpt */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		CD133F0715483753009579F0 /* Processes */ = {
-			isa = PBXGroup;
-			children = (
-				CD133F0815483753009579F0 /* Classic Shutdown.scpt */,
-				CD133F0915483753009579F0 /* Fast Logout.sh */,
-				CD133F0A15483753009579F0 /* Hide Others.scpt */,
-				CD133F0B15483753009579F0 /* LockScreen */,
-				CD133F0C15483753009579F0 /* Logout */,
-				CD133F0D15483753009579F0 /* Quit Visible Apps.scpt */,
-				CD133F0E15483753009579F0 /* Show All.scpt */,
-				CD133F0F15483753009579F0 /* Switch To Root.sh */,
-				CD133F1015483753009579F0 /* top 10.sh */,
-			);
-			path = Processes;
-			sourceTree = "<group>";
-		};
-		CD133F1115483753009579F0 /* System */ = {
-			isa = PBXGroup;
-			children = (
-				CD133F1215483753009579F0 /* Close Disk Tray.sh */,
-				CD133F1315483753009579F0 /* Eject.sh */,
-				CD133F1415483753009579F0 /* Empty Trash.scpt */,
-				CD133F1515483753009579F0 /* Force Restart */,
-				CD133F1615483753009579F0 /* Force Shutdown */,
-				CD133F1715483753009579F0 /* Restart */,
-				CD133F1815483753009579F0 /* Shut Down */,
-				CD133F1915483753009579F0 /* Sleep */,
-				CD133F1A15483753009579F0 /* Toggle Audio Input.scpt */,
-				CD133F1B15483753009579F0 /* Toggle Audio Output.scpt */,
-			);
-			path = System;
-			sourceTree = "<group>";
-		};
-		CD133F1C15483753009579F0 /* Volume */ = {
-			isa = PBXGroup;
-			children = (
-				CD133F1D15483753009579F0 /* Max Volume (60%).scpt */,
-				CD133F1E15483753009579F0 /* Mid Volume (40%).scpt */,
-				CD133F1F15483753009579F0 /* Min Volume (20%).scpt */,
-				CD133F2015483753009579F0 /* Mute Volume.scpt */,
-			);
-			path = Volume;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,36 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD133EC215483071009579F0 /* InfoPlist.strings in Resources */,
-				CD133F2115483753009579F0 /* Show Character Palette.scpt in Resources */,
-				CD133F2215483753009579F0 /* Show Keyboard Viewer.scpt in Resources */,
-				CD133F2315483753009579F0 /* Sync Now.scpt in Resources */,
-				CD133F2415483753009579F0 /* Type Clipboard.scpt in Resources */,
-				CD133F2515483753009579F0 /* Zoom Front Window.scpt in Resources */,
-				CD133F2615483753009579F0 /* Get External IP.scpt in Resources */,
-				CD133F2715483753009579F0 /* Get IP.scpt in Resources */,
-				CD133F2815483753009579F0 /* Classic Shutdown.scpt in Resources */,
-				CD133F2915483753009579F0 /* Fast Logout.sh in Resources */,
-				CD133F2A15483753009579F0 /* Hide Others.scpt in Resources */,
-				CD133F2B15483753009579F0 /* LockScreen in Resources */,
-				CD133F2C15483753009579F0 /* Logout in Resources */,
-				CD133F2D15483753009579F0 /* Quit Visible Apps.scpt in Resources */,
-				CD133F2E15483753009579F0 /* Show All.scpt in Resources */,
-				CD133F2F15483753009579F0 /* Switch To Root.sh in Resources */,
-				CD133F3015483753009579F0 /* top 10.sh in Resources */,
-				CD133F3115483753009579F0 /* Close Disk Tray.sh in Resources */,
-				CD133F3215483753009579F0 /* Eject.sh in Resources */,
-				CD133F3315483753009579F0 /* Empty Trash.scpt in Resources */,
-				CD133F3415483753009579F0 /* Force Restart in Resources */,
-				CD133F3515483753009579F0 /* Force Shutdown in Resources */,
-				CD133F3615483753009579F0 /* Restart in Resources */,
-				CD133F3715483753009579F0 /* Shut Down in Resources */,
-				CD133F3815483753009579F0 /* Sleep in Resources */,
-				CD133F3915483753009579F0 /* Toggle Audio Input.scpt in Resources */,
-				CD133F3A15483753009579F0 /* Toggle Audio Output.scpt in Resources */,
-				CD133F3B15483753009579F0 /* Max Volume (60%).scpt in Resources */,
-				CD133F3C15483753009579F0 /* Mid Volume (40%).scpt in Resources */,
-				CD133F3D15483753009579F0 /* Min Volume (20%).scpt in Resources */,
-				CD133F3E15483753009579F0 /* Mute Volume.scpt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
