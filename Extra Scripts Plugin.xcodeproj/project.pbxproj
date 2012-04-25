@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD133EBC15483070009579F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD133EBB15483070009579F0 /* Cocoa.framework */; };
+		CD133EC215483071009579F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD133EC015483071009579F0 /* InfoPlist.strings */; };
+		CD133EF91548333B009579F0 /* Miscellaneous in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133EEE154832F1009579F0 /* Miscellaneous */; };
+		CD133EFA1548333B009579F0 /* Networking in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133EEF154832F1009579F0 /* Networking */; };
+		CD133EFB1548333B009579F0 /* Processes in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133EF0154832F1009579F0 /* Processes */; };
+		CD133EFC1548333B009579F0 /* System in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133EF1154832F1009579F0 /* System */; };
+		CD133EFD1548333B009579F0 /* Volume in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD133EF2154832F1009579F0 /* Volume */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD133EF815483316009579F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ExtraScripts;
+			dstSubfolderSpec = 7;
+			files = (
+				CD133EF91548333B009579F0 /* Miscellaneous in CopyFiles */,
+				CD133EFA1548333B009579F0 /* Networking in CopyFiles */,
+				CD133EFB1548333B009579F0 /* Processes in CopyFiles */,
+				CD133EFC1548333B009579F0 /* System in CopyFiles */,
+				CD133EFD1548333B009579F0 /* Volume in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD133EB815483070009579F0 /* Extra Scripts Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extra Scripts Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD133EBB15483070009579F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD133EBF15483071009579F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		CD133EC115483071009579F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD133EC415483071009579F0 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		CD133EC515483071009579F0 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CD133EC615483071009579F0 /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		CD133EC715483071009579F0 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		CD133EC815483071009579F0 /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
+		CD133EC915483071009579F0 /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
+		CD133ECA15483071009579F0 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		CD133ECB15483071009579F0 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		CD133EEE154832F1009579F0 /* Miscellaneous */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Miscellaneous; sourceTree = "<group>"; };
+		CD133EEF154832F1009579F0 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Networking; sourceTree = "<group>"; };
+		CD133EF0154832F1009579F0 /* Processes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Processes; sourceTree = "<group>"; };
+		CD133EF1154832F1009579F0 /* System */ = {isa = PBXFileReference; lastKnownFileType = folder; path = System; sourceTree = "<group>"; };
+		CD133EF2154832F1009579F0 /* Volume */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Volume; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD133EB415483070009579F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD133EBC15483070009579F0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD133EAC15483070009579F0 = {
+			isa = PBXGroup;
+			children = (
+				CD133EBD15483070009579F0 /* Extra Scripts Plugin */,
+				CD133EBA15483070009579F0 /* Frameworks */,
+				CD133EB915483070009579F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD133EB915483070009579F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD133EB815483070009579F0 /* Extra Scripts Plugin.qsplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD133EBA15483070009579F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD133EBB15483070009579F0 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD133EBD15483070009579F0 /* Extra Scripts Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				CD133EC315483071009579F0 /* Configuration */,
+				CD133EE315483297009579F0 /* Scripts */,
+				CD133EBE15483071009579F0 /* Supporting Files */,
+			);
+			path = "Extra Scripts Plugin";
+			sourceTree = "<group>";
+		};
+		CD133EBE15483071009579F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD133EBF15483071009579F0 /* Info.plist */,
+				CD133EC015483071009579F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD133EC315483071009579F0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CD133EC415483071009579F0 /* Common.xcconfig */,
+				CD133EC515483071009579F0 /* Debug.xcconfig */,
+				CD133EC615483071009579F0 /* Developer.xcconfig */,
+				CD133EC715483071009579F0 /* QSPlugIn.xcconfig */,
+				CD133EC815483071009579F0 /* QSPlugIn_Debug.xcconfig */,
+				CD133EC915483071009579F0 /* QSPlugIn_Release.xcconfig */,
+				CD133ECA15483071009579F0 /* Quicksilver.pch */,
+				CD133ECB15483071009579F0 /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = /tmp/QS/Configuration;
+			sourceTree = "<group>";
+		};
+		CD133EE315483297009579F0 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CD133EEE154832F1009579F0 /* Miscellaneous */,
+				CD133EEF154832F1009579F0 /* Networking */,
+				CD133EF0154832F1009579F0 /* Processes */,
+				CD133EF1154832F1009579F0 /* System */,
+				CD133EF2154832F1009579F0 /* Volume */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD133EB715483070009579F0 /* Extra Scripts Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD133ED715483071009579F0 /* Build configuration list for PBXNativeTarget "Extra Scripts Plugin" */;
+			buildPhases = (
+				CD133EB315483070009579F0 /* Sources */,
+				CD133EB415483070009579F0 /* Frameworks */,
+				CD133EB515483070009579F0 /* Resources */,
+				CD133EF815483316009579F0 /* CopyFiles */,
+				CD133EB615483070009579F0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Extra Scripts Plugin";
+			productName = "Extra Scripts Plugin";
+			productReference = CD133EB815483070009579F0 /* Extra Scripts Plugin.qsplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD133EAE15483070009579F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CD133EB115483070009579F0 /* Build configuration list for PBXProject "Extra Scripts Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD133EAC15483070009579F0;
+			productRefGroup = CD133EB915483070009579F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD133EB715483070009579F0 /* Extra Scripts Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD133EB515483070009579F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD133EC215483071009579F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD133EB615483070009579F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/Extra Scripts Plugin/bltrversion\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD133EB315483070009579F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD133EC015483071009579F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD133EC115483071009579F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD133ED515483071009579F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD133EC515483071009579F0 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CD133ED615483071009579F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD133ECB15483071009579F0 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CD133ED815483071009579F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD133EC715483071009579F0 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD133ED915483071009579F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD133EC715483071009579F0 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD133EB115483070009579F0 /* Build configuration list for PBXProject "Extra Scripts Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD133ED515483071009579F0 /* Debug */,
+				CD133ED615483071009579F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD133ED715483071009579F0 /* Build configuration list for PBXNativeTarget "Extra Scripts Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD133ED815483071009579F0 /* Debug */,
+				CD133ED915483071009579F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD133EAE15483070009579F0 /* Project object */;
+}
