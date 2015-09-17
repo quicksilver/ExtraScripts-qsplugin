@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CD133EBC15483070009579F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD133EBB15483070009579F0 /* Cocoa.framework */; };
 		CD133EC215483071009579F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD133EC015483071009579F0 /* InfoPlist.strings */; };
+		D4F2DC901BAB6880005FC6E3 /* blueutil in Resources */ = {isa = PBXBuildFile; fileRef = D4F2DC8F1BAB6880005FC6E3 /* blueutil */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		CD133F6C154853B7009579F0 /* Mid Volume (40%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mid Volume (40%).scpt"; sourceTree = "<group>"; };
 		CD133F6D154853B7009579F0 /* Min Volume (20%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Min Volume (20%).scpt"; sourceTree = "<group>"; };
 		CD133F6E154853B7009579F0 /* Mute Volume.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mute Volume.scpt"; sourceTree = "<group>"; };
+		D4F2DC8F1BAB6880005FC6E3 /* blueutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = blueutil; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				CD133EC315483071009579F0 /* Configuration */,
 				CD133EE315483297009579F0 /* Scripts */,
+				D4F2DC8E1BAB6880005FC6E3 /* Resources */,
 				CD133EBE15483071009579F0 /* Supporting Files */,
 			);
 			path = "Extra Scripts Plugin";
@@ -184,6 +187,14 @@
 			path = Volume;
 			sourceTree = "<group>";
 		};
+		D4F2DC8E1BAB6880005FC6E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4F2DC8F1BAB6880005FC6E3 /* blueutil */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F2DC901BAB6880005FC6E3 /* blueutil in Resources */,
 				CD133EC215483071009579F0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
