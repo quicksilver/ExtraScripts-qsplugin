@@ -24,7 +24,6 @@
 		CD133ECB15483071009579F0 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		CD133F52154853B7009579F0 /* Show Character Palette.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show Character Palette.scpt"; sourceTree = "<group>"; };
 		CD133F53154853B7009579F0 /* Show Keyboard Viewer.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show Keyboard Viewer.scpt"; sourceTree = "<group>"; };
-		CD133F54154853B7009579F0 /* Sync Now.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sync Now.scpt"; sourceTree = "<group>"; };
 		CD133F55154853B7009579F0 /* Zoom Front Window.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zoom Front Window.scpt"; sourceTree = "<group>"; };
 		CD133F57154853B7009579F0 /* Fast Logout.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Fast Logout.sh"; sourceTree = "<group>"; };
 		CD133F58154853B7009579F0 /* Hide Others.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hide Others.scpt"; sourceTree = "<group>"; };
@@ -137,7 +136,6 @@
 			children = (
 				CD133F52154853B7009579F0 /* Show Character Palette.scpt */,
 				CD133F53154853B7009579F0 /* Show Keyboard Viewer.scpt */,
-				CD133F54154853B7009579F0 /* Sync Now.scpt */,
 				CD133F55154853B7009579F0 /* Zoom Front Window.scpt */,
 			);
 			path = Miscellaneous;
