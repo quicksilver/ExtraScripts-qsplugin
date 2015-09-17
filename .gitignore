@@ -1,3 +1,4 @@
+Extra Scripts Plugin/ExtraScripts/Processes/Lock Screen.app
 .svn
 .DS_Store
 ._.*
@@ -16,3 +17,4 @@ autom4te.cache
 Developer.xcconfig
 *.xcworkspace
 *.xcuserdatad
+

@@ -1,0 +1,3 @@
+[submodule "Extra Scripts Plugin/external/lock-screen"]
+	path = Extra Scripts Plugin/external/lock-screen
+	url = https://github.com/gaomd/lock-screen-app.git

@@ -20,8 +20,6 @@
 		CD133EC515483071009579F0 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		CD133EC615483071009579F0 /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
 		CD133EC715483071009579F0 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
-		CD133EC815483071009579F0 /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
-		CD133EC915483071009579F0 /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
 		CD133ECA15483071009579F0 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		CD133ECB15483071009579F0 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		CD133F52154853B7009579F0 /* Show Character Palette.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show Character Palette.scpt"; sourceTree = "<group>"; };
@@ -115,8 +113,6 @@
 				CD133EC515483071009579F0 /* Debug.xcconfig */,
 				CD133EC615483071009579F0 /* Developer.xcconfig */,
 				CD133EC715483071009579F0 /* QSPlugIn.xcconfig */,
-				CD133EC815483071009579F0 /* QSPlugIn_Debug.xcconfig */,
-				CD133EC915483071009579F0 /* QSPlugIn_Release.xcconfig */,
 				CD133ECA15483071009579F0 /* Quicksilver.pch */,
 				CD133ECB15483071009579F0 /* Release.xcconfig */,
 			);
@@ -198,10 +194,11 @@
 			buildConfigurationList = CD133ED715483071009579F0 /* Build configuration list for PBXNativeTarget "Extra Scripts Plugin" */;
 			buildPhases = (
 				CD133EB315483070009579F0 /* Sources */,
+				CD133EB615483070009579F0 /* Update Version and Documentation */,
 				CD133EB415483070009579F0 /* Frameworks */,
 				CD133EB515483070009579F0 /* Resources */,
-				CD133F8D15485415009579F0 /* ShellScript */,
-				CD133EB615483070009579F0 /* ShellScript */,
+				CDE2BC131BAA81FB00D617EE /* Make Lock Script */,
+				CD133F8D15485415009579F0 /* Copy Scripts */,
 			);
 			buildRules = (
 			);
@@ -218,7 +215,7 @@
 		CD133EAE15483070009579F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0640;
 			};
 			buildConfigurationList = CD133EB115483070009579F0 /* Build configuration list for PBXProject "Extra Scripts Plugin" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -249,31 +246,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CD133EB615483070009579F0 /* ShellScript */ = {
+		CD133EB615483070009579F0 /* Update Version and Documentation */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Update Version and Documentation";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/Extra Scripts Plugin/bltrversion\" \"$INFOPLIST_FILE\"";
+			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
+			showEnvVarsInLog = 0;
 		};
-		CD133F8D15485415009579F0 /* ShellScript */ = {
+		CD133F8D15485415009579F0 /* Copy Scripts */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Copy Scripts";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "cp -rf \"$SRCROOT/Extra Scripts Plugin/ExtraScripts\" \"$INSTALL_DIR/$WRAPPER_NAME/Contents/Resources/\"";
+			showEnvVarsInLog = 0;
+		};
+		CDE2BC131BAA81FB00D617EE /* Make Lock Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Make Lock Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRPT_DIR=\"$SRCROOT/Extra Scripts Plugin/external/lock-screen\"\nsh \"$SCRPT_DIR/build.command\"\ncp -rf \"$SCRPT_DIR/Lock Screen Bundle.app\" \"$SRCROOT/Extra Scripts Plugin/ExtraScripts/Processes/Lock Screen.app\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -303,7 +319,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD133EC515483071009579F0 /* Debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -311,7 +330,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD133ECB15483071009579F0 /* Release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 			};
 			name = Release;
 		};
