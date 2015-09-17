@@ -27,7 +27,7 @@
 		CD133F55154853B7009579F0 /* Zoom Front Window.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zoom Front Window.scpt"; sourceTree = "<group>"; };
 		CD133F57154853B7009579F0 /* Fast Logout.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Fast Logout.sh"; sourceTree = "<group>"; };
 		CD133F58154853B7009579F0 /* Hide Others.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hide Others.scpt"; sourceTree = "<group>"; };
-		CD133F59154853B7009579F0 /* LockScreen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = LockScreen; sourceTree = "<group>"; };
+		CD133F59154853B7009579F0 /* Lock Screen.app */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "Lock Screen.app"; sourceTree = "<group>"; };
 		CD133F5A154853B7009579F0 /* Logout */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logout; sourceTree = "<group>"; };
 		CD133F5B154853B7009579F0 /* Quit Visible Apps.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quit Visible Apps.scpt"; sourceTree = "<group>"; };
 		CD133F5C154853B7009579F0 /* Show All.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show All.scpt"; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 			children = (
 				CD133F57154853B7009579F0 /* Fast Logout.sh */,
 				CD133F58154853B7009579F0 /* Hide Others.scpt */,
-				CD133F59154853B7009579F0 /* LockScreen */,
+				CD133F59154853B7009579F0 /* Lock Screen.app */,
 				CD133F5A154853B7009579F0 /* Logout */,
 				CD133F5B154853B7009579F0 /* Quit Visible Apps.scpt */,
 				CD133F5C154853B7009579F0 /* Show All.scpt */,
