@@ -1,0 +1,11 @@
+This plugin adds a catalog entry titled "Scripts (Extra Scripts Plugin)" to your catalog which includes Shell/AppleScripts that emulate some OS functions like restarting and process actions.
+
+The plugins includes scripts for:
+
+* System Volume control
+* Showing the Keyboard Viewer and Character Palette
+* Managing the user session: Logout, Lock Screen etc.
+* System Controls such as Restart, Shutdown, Sleep, Eject
+
+
+For a full list of scripts, see the plugin's catalog entry (titles "Scripts (Extra Scripts Plugin)")
