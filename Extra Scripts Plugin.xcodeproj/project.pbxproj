@@ -200,6 +200,7 @@
 				CD133EB315483070009579F0 /* Sources */,
 				CD133EB415483070009579F0 /* Frameworks */,
 				CD133EB515483070009579F0 /* Resources */,
+				CDE2BC131BAA81FB00D617EE /* ShellScript */,
 				CD133F8D15485415009579F0 /* ShellScript */,
 				CD133EB615483070009579F0 /* ShellScript */,
 			);
@@ -274,6 +275,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "cp -rf \"$SRCROOT/Extra Scripts Plugin/ExtraScripts\" \"$INSTALL_DIR/$WRAPPER_NAME/Contents/Resources/\"";
+		};
+		CDE2BC131BAA81FB00D617EE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRPT_DIR=\"$SRCROOT/Extra Scripts Plugin/external/lock-screen\"\nsh \"$SCRPT_DIR/build.command\"\ncp -rf \"$SCRPT_DIR/Lock Screen Bundle.app\" \"$SRCROOT/Extra Scripts Plugin/ExtraScripts/Processes/Lock Screen.app\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
