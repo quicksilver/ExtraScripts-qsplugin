@@ -1,3 +1,11 @@
+Extra Scripts Plug-in
+=====================
+
+This plug-in has submodules. Before building it, you'll need to run
+
+    git submodule init
+    git submodule update
+
 About Quicksilver Plugins on Github
 ===================================
 
