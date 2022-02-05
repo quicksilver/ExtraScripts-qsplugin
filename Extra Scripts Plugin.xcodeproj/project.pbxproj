@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CD133EBC15483070009579F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD133EBB15483070009579F0 /* Cocoa.framework */; };
 		CD133EC215483071009579F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD133EC015483071009579F0 /* InfoPlist.strings */; };
-		D4F2DC901BAB6880005FC6E3 /* blueutil in Resources */ = {isa = PBXBuildFile; fileRef = D4F2DC8F1BAB6880005FC6E3 /* blueutil */; settings = {ASSET_TAGS = (); }; };
+		D4F2DC901BAB6880005FC6E3 /* blueutil in Resources */ = {isa = PBXBuildFile; fileRef = D4F2DC8F1BAB6880005FC6E3 /* blueutil */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +49,9 @@
 		CD133F6D154853B7009579F0 /* Min Volume (20%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Min Volume (20%).scpt"; sourceTree = "<group>"; };
 		CD133F6E154853B7009579F0 /* Mute Volume.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mute Volume.scpt"; sourceTree = "<group>"; };
 		D4F2DC8F1BAB6880005FC6E3 /* blueutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = blueutil; sourceTree = "<group>"; };
+		D4F2DC921BABAC54005FC6E3 /* Start Screen Saver.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Start Screen Saver.scpt"; sourceTree = "<group>"; };
+		D4F2DC931BABAC66005FC6E3 /* Open AirDrop.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open AirDrop.scpt"; path = "Extra Scripts Plugin/ExtraScripts/System/Open AirDrop.scpt"; sourceTree = SOURCE_ROOT; };
+		D4F2DC941BABAC66005FC6E3 /* Switch User.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Switch User.scpt"; path = "Extra Scripts Plugin/ExtraScripts/System/Switch User.scpt"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +140,10 @@
 		CD133F51154853B7009579F0 /* Miscellaneous */ = {
 			isa = PBXGroup;
 			children = (
+				D4F2DC931BABAC66005FC6E3 /* Open AirDrop.scpt */,
 				CD133F52154853B7009579F0 /* Show Character Palette.scpt */,
 				CD133F53154853B7009579F0 /* Show Keyboard Viewer.scpt */,
+				D4F2DC941BABAC66005FC6E3 /* Switch User.scpt */,
 				CD133F55154853B7009579F0 /* Zoom Front Window.scpt */,
 			);
 			path = Miscellaneous;
@@ -170,6 +175,7 @@
 				CD133F65154853B7009579F0 /* Restart */,
 				CD133F66154853B7009579F0 /* Shut Down */,
 				CD133F67154853B7009579F0 /* Sleep */,
+				D4F2DC921BABAC54005FC6E3 /* Start Screen Saver.scpt */,
 				CD133F68154853B7009579F0 /* Toggle Audio Input.scpt */,
 				CD133F69154853B7009579F0 /* Toggle Audio Output.scpt */,
 			);
@@ -203,7 +209,6 @@
 			buildConfigurationList = CD133ED715483071009579F0 /* Build configuration list for PBXNativeTarget "Extra Scripts Plugin" */;
 			buildPhases = (
 				CD133EB315483070009579F0 /* Sources */,
-				CD133EB615483070009579F0 /* Update Version and Documentation */,
 				CD133EB415483070009579F0 /* Frameworks */,
 				CD133EB515483070009579F0 /* Resources */,
 				CDE2BC131BAA81FB00D617EE /* Make Lock Script */,
@@ -225,12 +230,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					CD133EB715483070009579F0 = {
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = CD133EB115483070009579F0 /* Build configuration list for PBXProject "Extra Scripts Plugin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CD133EAC15483070009579F0;
@@ -256,21 +267,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CD133EB615483070009579F0 /* Update Version and Documentation */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Update Version and Documentation";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
-			showEnvVarsInLog = 0;
-		};
 		CD133F8D15485415009579F0 /* Copy Scripts */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
