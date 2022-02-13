@@ -48,6 +48,7 @@
 		CD133F6C154853B7009579F0 /* Mid Volume (40%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mid Volume (40%).scpt"; sourceTree = "<group>"; };
 		CD133F6D154853B7009579F0 /* Min Volume (20%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Min Volume (20%).scpt"; sourceTree = "<group>"; };
 		CD133F6E154853B7009579F0 /* Mute Volume.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mute Volume.scpt"; sourceTree = "<group>"; };
+		CD3E39D427B92A3B00A226FF /* Open AirDrop.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Open AirDrop.scpt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +162,7 @@
 		CD133F5F154853B7009579F0 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				CD3E39D427B92A3B00A226FF /* Open AirDrop.scpt */,
 				CD133F60154853B7009579F0 /* Close Disk Tray.sh */,
 				CD133F61154853B7009579F0 /* Eject.sh */,
 				CD133F62154853B7009579F0 /* Empty Trash.scpt */,
@@ -216,12 +218,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					CD133EB715483070009579F0 = {
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = CD133EB115483070009579F0 /* Build configuration list for PBXProject "Extra Scripts Plugin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CD133EAC15483070009579F0;
@@ -273,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -rf \"$SRCROOT/Extra Scripts Plugin/ExtraScripts\" \"$INSTALL_DIR/$WRAPPER_NAME/Contents/Resources/\"";
+			shellScript = "cp -rf \"$SRCROOT/Extra Scripts Plugin/ExtraScripts\" \"$INSTALL_DIR/$WRAPPER_NAME/Contents/Resources/\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDE2BC131BAA81FB00D617EE /* Make Lock Script */ = {
