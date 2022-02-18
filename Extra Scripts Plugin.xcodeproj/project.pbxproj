@@ -14,7 +14,6 @@
 
 /* Begin PBXFileReference section */
 		607E7A9027BE1966000FBA3F /* Fullscreen Front Window.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fullscreen Front Window.scpt"; sourceTree = "<group>"; };
-		607E7A9227BE1E42000FBA3F /* Lock Screen.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "Lock Screen.app"; sourceTree = "<group>"; };
 		CD133EB815483070009579F0 /* Extra Scripts Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extra Scripts Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD133EBB15483070009579F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CD133EBF15483071009579F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
@@ -25,7 +24,6 @@
 		CD133EC715483071009579F0 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
 		CD133ECA15483071009579F0 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
 		CD133ECB15483071009579F0 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		CD133F52154853B7009579F0 /* Show Character Palette.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Show Character Palette.scpt"; sourceTree = "<group>"; };
 		CD133F57154853B7009579F0 /* Fast Logout.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Fast Logout.sh"; sourceTree = "<group>"; };
 		CD133F58154853B7009579F0 /* Hide Others.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hide Others.scpt"; sourceTree = "<group>"; };
 		CD133F5A154853B7009579F0 /* Logout */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logout; sourceTree = "<group>"; };
@@ -38,9 +36,9 @@
 		CD133F62154853B7009579F0 /* Empty Trash.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Empty Trash.scpt"; sourceTree = "<group>"; };
 		CD133F63154853B7009579F0 /* Force Restart */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Force Restart"; sourceTree = "<group>"; };
 		CD133F64154853B7009579F0 /* Force Shutdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Force Shutdown"; sourceTree = "<group>"; };
-		CD133F65154853B7009579F0 /* Restart */ = {isa = PBXFileReference; lastKnownFileType = file; path = Restart; sourceTree = "<group>"; };
-		CD133F66154853B7009579F0 /* Shut Down */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shut Down"; sourceTree = "<group>"; };
-		CD133F67154853B7009579F0 /* Sleep */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sleep; sourceTree = "<group>"; };
+		CD133F65154853B7009579F0 /* Restart */ = {isa = PBXFileReference; lastKnownFileType = text; path = Restart; sourceTree = "<group>"; };
+		CD133F66154853B7009579F0 /* Shut Down */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Shut Down"; sourceTree = "<group>"; };
+		CD133F67154853B7009579F0 /* Sleep */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sleep; sourceTree = "<group>"; };
 		CD133F68154853B7009579F0 /* Toggle Audio Input.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Toggle Audio Input.scpt"; sourceTree = "<group>"; };
 		CD133F69154853B7009579F0 /* Toggle Audio Output.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Toggle Audio Output.scpt"; sourceTree = "<group>"; };
 		CD133F6B154853B7009579F0 /* Max Volume (60%).scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Max Volume (60%).scpt"; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				607E7A9027BE1966000FBA3F /* Fullscreen Front Window.scpt */,
-				CD133F52154853B7009579F0 /* Show Character Palette.scpt */,
 			);
 			path = Miscellaneous;
 			sourceTree = "<group>";
@@ -144,7 +141,6 @@
 		CD133F56154853B7009579F0 /* Processes */ = {
 			isa = PBXGroup;
 			children = (
-				607E7A9227BE1E42000FBA3F /* Lock Screen.app */,
 				CD133F57154853B7009579F0 /* Fast Logout.sh */,
 				CD133F58154853B7009579F0 /* Hide Others.scpt */,
 				CD133F5A154853B7009579F0 /* Logout */,
@@ -294,7 +290,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SCRPT_DIR=\"$SRCROOT/Extra Scripts Plugin/external/lockscreen\"\npushd \"$SCRPT_DIR\"\nmake\npopd\ncp -rf \"$SCRPT_DIR/lockscreen\" \"$SRCROOT/Extra Scripts Plugin/ExtraScripts/Processes/Lock Screen.app/Lock Screen Bundle.app/Contents/Resources/Scripts/\"\n\n";
+			shellScript = "SCRPT_DIR=\"$SRCROOT/Extra Scripts Plugin/external/lockscreen\"\npushd \"$SCRPT_DIR\"\nmake\npopd\ncp -rf \"$SCRPT_DIR/lockscreen\" \"$SRCROOT/Extra Scripts Plugin/ExtraScripts/Processes/Lock Screen\"\n\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
