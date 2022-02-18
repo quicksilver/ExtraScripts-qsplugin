@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
-	<string>94</string>
+	<string>95</string>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
@@ -31,16 +31,15 @@
 		<key>description</key>
 		<string>AppleScripts for commonly used system tasks</string>
 		<key>extendedDescription</key>
-		<string>&lt;p&gt;This plugin adds a catalog entry titled &quot;Scripts (Extra Scripts Plugin)&quot; to your catalog which includes Shell/AppleScripts that emulate some OS functions like restarting and process actions.&lt;/p&gt;
+		<string>&lt;p&gt;This plugin adds a catalog entry titled "Scripts (Extra Scripts Plugin)" to your catalog which includes Shell/AppleScripts that emulate some OS functions like restarting and process actions.&lt;/p&gt;
 &lt;p&gt;The plugins includes scripts for:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;System Volume control&lt;/li&gt;
 &lt;li&gt;Showing the Keyboard Viewer and Character Palette&lt;/li&gt;
 &lt;li&gt;Managing the user session: Logout, Lock Screen etc.&lt;/li&gt;
 &lt;li&gt;System Controls such as Restart, Shutdown, Sleep, Eject&lt;/li&gt;
-&lt;li&gt;Opening Airdrop&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For a full list of scripts, see the plugin&apos;s catalog entry (titles &quot;Scripts (Extra Scripts Plugin)&quot;)&lt;/p&gt;</string>
+&lt;p&gt;For a full list of scripts, see the plugin's catalog entry (titles "Scripts (Extra Scripts Plugin)")&lt;/p&gt;</string>
 		<key>icon</key>
 		<string>ScriptIcon</string>
 		<key>requiresFeature</key>
@@ -56,7 +55,7 @@
 			<key>icon</key>
 			<string>ScriptIcon</string>
 			<key>modificationDate</key>
-			<real>103923344</real>
+			<real>103923344.0</real>
 			<key>name</key>
 			<string>Scripts (Extra Scripts Plugin)</string>
 			<key>settings</key>

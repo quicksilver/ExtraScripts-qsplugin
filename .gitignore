@@ -1,10 +1,8 @@
-Extra Scripts Plugin/ExtraScripts/Processes/Lock Screen.app
 .svn
 .DS_Store
 ._.*
 *.o
 build
-Makefile
 autom4te.cache
 *~
 *.pbxuser
@@ -18,3 +16,4 @@ Developer.xcconfig
 *.xcworkspace
 *.xcuserdatad
 
+Extra Scripts Plugin/external/lockscreen/lockscreen_*
