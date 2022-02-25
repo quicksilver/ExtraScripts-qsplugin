@@ -14,7 +14,7 @@
 
 /* Begin PBXFileReference section */
 		607E7A9027BE1966000FBA3F /* Fullscreen Front Window.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fullscreen Front Window.scpt"; sourceTree = "<group>"; };
-		CD133EB815483070009579F0 /* Extra Scripts Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extra Scripts Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD133EB815483070009579F0 /* Extra Scripts Plugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extra Scripts Plugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD133EBB15483070009579F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CD133EBF15483071009579F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		CD133EC115483071009579F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		CD133EB915483070009579F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD133EB815483070009579F0 /* Extra Scripts Plugin.qsplugin */,
+				CD133EB815483070009579F0 /* Extra Scripts Plugin.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,7 +201,7 @@
 			);
 			name = "Extra Scripts Plugin";
 			productName = "Extra Scripts Plugin";
-			productReference = CD133EB815483070009579F0 /* Extra Scripts Plugin.qsplugin */;
+			productReference = CD133EB815483070009579F0 /* Extra Scripts Plugin.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
